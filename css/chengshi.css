@@ -165,7 +165,7 @@
 }
 .quxian {
     width: 100%;
-    height: 11rem;
+    /*height: 11rem;*/
     border-top: 1px solid rgb(228,228,228);
     border-bottom: 1px solid rgb(228,228,228);
 }
@@ -182,10 +182,20 @@
     flex-direction: column;
     text-align: center;
 }
+.quxian .quxian1 li>img{
+    width: .96rem;
+    height: .96em;
+    margin-left: 0.15rem;
+}
 .quxian .quxian1 li span{
     height: 20%;
     font-size: 0.32rem;
     line-height: 300%;
+}
+.quxian .quxian2 li>img{
+    width: .96rem;
+    height: .96em;
+    margin-left: 0.15rem;
 }
 .quxian .quxian2{
     width: 100%;
